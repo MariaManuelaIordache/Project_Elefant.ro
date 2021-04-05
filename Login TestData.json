@@ -1,0 +1,23 @@
+{
+    "goodLogin":[
+        {
+        "username": "mariamanuela.iordache@gmail.com",
+        "password": "12345678"
+}
+    ],
+
+    "badLogin":[
+        {
+            "username": "mariamanuela.iordache@gmail.com",
+            "password": "invalidpass"
+        },
+        {
+            "username": " ",
+            "password": " "
+        },
+        {
+            "username": "mariamanuela.iordache@gmail.com",
+            "password": "  "
+        }
+    ]
+}

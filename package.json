@@ -1,0 +1,15 @@
+{
+  "name": "test-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^6.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "cypress-open": "npm cache clean --force && cypress open"
+  },
+  "author": "",
+  "license": "ISC"
+}
