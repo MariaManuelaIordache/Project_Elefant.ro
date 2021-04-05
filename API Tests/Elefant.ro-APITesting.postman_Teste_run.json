@@ -1,0 +1,147 @@
+{
+	"id": "929f0ab9-ff5d-463f-8471-3d725818937c",
+	"name": "Elefant.ro-APITesting",
+	"timestamp": "2021-03-30T21:54:33.444Z",
+	"collection_id": "fddae603-9695-419e-82b7-ca8d92e71b1f",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 8,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "df6fb0c3-1e15-471f-9515-be226275b7c5",
+			"name": "Elefant Main page",
+			"url": "https://www.elefant.ro/",
+			"time": 641,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": false,
+				"Body is correct": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 0,
+					"fail": 1
+				},
+				"Body is correct": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				641
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": false,
+					"Body is correct": true,
+					"Body matches string": true
+				}
+			]
+		},
+		{
+			"id": "a972d4eb-95eb-41b9-9d39-6fe7289fadd5",
+			"name": "Elefant Log in",
+			"url": "https://www.elefant.ro/INTERSHOP/web/WFS/elefant-elefantRO-Site/ro_RO/-/RON/ViewUserAccount-ProcessLogin",
+			"time": 205,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 600ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 600ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				205
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 600ms": true
+				}
+			]
+		},
+		{
+			"id": "18954deb-0bbd-463e-988e-69af3193b03b",
+			"name": "Elefant Search bar",
+			"url": "https://www.elefant.ro/search?SearchTerm=harry+potter",
+			"time": 140,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response time is less than 200ms": true,
+				"Body matches string": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body matches string": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				140
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response time is less than 200ms": true,
+					"Body matches string": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 986,
+	"collection": {
+		"requests": [
+			{
+				"id": "df6fb0c3-1e15-471f-9515-be226275b7c5",
+				"method": "GET"
+			},
+			{
+				"id": "a972d4eb-95eb-41b9-9d39-6fe7289fadd5",
+				"method": "POST"
+			},
+			{
+				"id": "18954deb-0bbd-463e-988e-69af3193b03b",
+				"method": "GET"
+			}
+		]
+	}
+}
